@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C153C97-3A5C-84B2-FC49-3D532FAF51E7" name="Vozilo">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:44:13 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registarski_broj" id="B2263EEC-6E78-13EE-EBE6-35896CB86D71">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:05 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godiste" id="FBDC4E36-BA8F-D967-1A69-3B9968381D4A">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:05 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_registracije" id="BA140851-E536-133A-6552-3A509DDD6DE3">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:05 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_sedista" id="9171AB9F-0549-64F3-A336-30B61E30B3A9">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:05 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vozacka_kategorija" id="02E14FFF-E3CD-F9A8-B7D6-D863D6481878">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:05 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_objekta" id="4CF34B1E-A257-DF0B-2FE5-8B2CA287C64A">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:02:37 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>196F2EF9-82FC-E4AE-75F3-6A3A8D9EEDC6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBE1E7CE-8734-D6A9-DEF8-056886865742" referredColumn="196F2EF9-82FC-E4AE-75F3-6A3A8D9EEDC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC9B9BD8-D20F-47B9-BBF4-38C5DBE60F88" name="Vozilo_PK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:05 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2263EEC-6E78-13EE-EBE6-35896CB86D71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF9EC006-94A3-621E-E361-D4C29A2016EB" name="Vozilo_Objekat_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:02:37 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CF34B1E-A257-DF0B-2FE5-8B2CA287C64A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

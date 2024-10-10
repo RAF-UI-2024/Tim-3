@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C8F4C73-D793-2D59-C78F-6C676D520CDF" name="TABLE_9_Vozilo_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:56:26 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<containerWithKeyObject>9AED8316-DB53-BFE2-323E-EB0D11888411</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>DD798DC8-1A41-A32D-E4DB-0268BCEA3E8C</localFKIndex>
+<keyObject>DC9B9BD8-D20F-47B9-BBF4-38C5DBE60F88</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

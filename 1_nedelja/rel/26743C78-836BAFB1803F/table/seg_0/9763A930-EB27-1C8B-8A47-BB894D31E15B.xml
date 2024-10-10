@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9763A930-EB27-1C8B-8A47-BB894D31E15B" name="Objekat">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:57:03 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_objekta" id="196F2EF9-82FC-E4AE-75F3-6A3A8D9EEDC6">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:00:08 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="FFE75524-8D45-0088-C840-C6FB5F535967">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:00:08 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="C05EA049-55B0-155A-C55D-D670CBD2FF5B">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:00:08 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parcele" id="860F2FB3-F199-9293-C1EA-6C2220F9F56B">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:05:32 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2EEB5D80-EDA6-4F3B-1CD0-69C9406E1162</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F52DBD0-2ED9-7E09-8CE0-69E1805B0729" referredColumn="2EEB5D80-EDA6-4F3B-1CD0-69C9406E1162"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6AEC7F8-0C86-538F-6193-A8FD6FF3D681" name="Objekat_PK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:00:08 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="196F2EF9-82FC-E4AE-75F3-6A3A8D9EEDC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="185920F9-5F12-50FE-0F9E-BB7EA263F6B8" name="Objekat_Parcela_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:05:32 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="860F2FB3-F199-9293-C1EA-6C2220F9F56B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2D2616E-5912-1F10-4894-B371D58C1CDA" name="Parcela">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:36:36 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parcele" id="2EEB5D80-EDA6-4F3B-1CD0-69C9406E1162">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="povrsina" id="8D5E5ACD-24EA-B0E6-8158-5B552B5BD0FA">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvalitet_zemljista" id="559ECC4B-5A99-1C05-C46E-AA7FEB97170B">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokacija" id="B5CF1A04-D445-4E10-79B2-3F05484E9A58">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80BCB227-B6D9-87B7-CE6D-3696699A900D" name="Parcela_PK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:38:58 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EEB5D80-EDA6-4F3B-1CD0-69C9406E1162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

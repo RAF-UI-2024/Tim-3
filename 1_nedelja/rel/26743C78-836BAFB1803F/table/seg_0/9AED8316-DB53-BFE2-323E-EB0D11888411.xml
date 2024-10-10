@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AED8316-DB53-BFE2-323E-EB0D11888411" name="Voznja">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:54:26 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="7ED939DE-A939-DBE1-19F0-A3EF6B7C4B1A">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:56:26 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>B2263EEC-6E78-13EE-EBE6-35896CB86D71</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C8F4C73-D793-2D59-C78F-6C676D520CDF" referredColumn="B2263EEC-6E78-13EE-EBE6-35896CB86D71"/>
+</associations>
+</Column>
+<Column name="id_masine" id="429220E6-ACDA-0108-D92B-2DF2D7E66FED">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:56:26 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>9DF45089-64A2-F1D6-302E-B3027941BF5B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE16F3B-8A5D-705D-337C-14F7516379F9" referredColumn="9DF45089-64A2-F1D6-302E-B3027941BF5B"/>
+</associations>
+</Column>
+<Column name="id_zaposlenog" id="9B2BC427-B676-FC6D-245C-A1D13D745579">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:58:30 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>0041430C-AC49-DC6C-0532-365F6030D618</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8641D148-3793-8B87-16F4-E1AE989E01F0" referredColumn="0041430C-AC49-DC6C-0532-365F6030D618"/>
+</associations>
+</Column>
+<Column name="datum_pocetka" id="36156DA0-3435-A3B7-1383-63D0234A9756">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:00:17 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_pocetka" id="BA94E67E-E072-6DB3-C6E5-251B020B6BF5">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:00:17 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_kraja" id="8A74272B-1CE8-8BEA-67DE-AF2E79061BD8">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:00:17 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_kraja" id="40BFE108-7779-5F7C-A798-81E6822D1153">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 17:00:17 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD798DC8-1A41-A32D-E4DB-0268BCEA3E8C" name="TABLE_9_Vozilo_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:56:26 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ED939DE-A939-DBE1-19F0-A3EF6B7C4B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71B7070-2913-EA64-3050-23F567347C50" name="TABLE_9_PrikljucnaMasina_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:56:26 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="429220E6-ACDA-0108-D92B-2DF2D7E66FED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89141E56-7F5A-8B83-FA2A-BE4BADDC3F27" name="VoziloMasina_Zaposleni_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:58:30 UTC</createdTime>
+<ownerDesignName>1_nedelja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B2BC427-B676-FC6D-245C-A1D13D745579"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
