@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FF5946D-5408-6003-2613-D8C5C5B580F8" name="KvlaitetPoljoprivrednogZemljista">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:15:52 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_procene" id="8F7626FC-D52F-00FC-D9FA-40BBDD415A82">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:18:35 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_procene" id="DE39CAA6-05B5-0621-F5DC-256A75B3DDCB">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:18:35 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena" id="958363FC-FBD8-90CA-EC3F-319868922A4F">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:18:35 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentar" id="39654190-86E7-0FB5-F2DC-8662E94972D6">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:18:35 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_zemljista" id="31B066DC-074C-33A9-E346-5EE83A0B7BFC">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:39:32 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="338B8FE0-7469-0E10-D5FE-EEB07E92FDFB" referredColumn="C8FB50F9-EC49-A41E-167A-6D2B10DE925A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6378A05-0BC4-71CE-909B-92C1F419E4AB" name="KvlaitetPoljoprivrednogZemljista_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:18:35 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7626FC-D52F-00FC-D9FA-40BBDD415A82"/>
+<colUsage columnID="31B066DC-074C-33A9-E346-5EE83A0B7BFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C86FD9E6-7199-04ED-271D-4B4F25C0853A" name="id_procene_zemljista">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:39:32 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31B066DC-074C-33A9-E346-5EE83A0B7BFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

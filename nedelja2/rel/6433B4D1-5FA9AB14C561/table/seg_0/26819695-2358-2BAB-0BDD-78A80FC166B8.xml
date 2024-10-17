@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26819695-2358-2BAB-0BDD-78A80FC166B8" name="Lokacija">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:20:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokacije" id="DD60A071-541F-1925-E955-395B3E046392">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:25:58 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="severna_sirina" id="25E37BBA-92F5-98B7-B6D0-C665D92E22AE">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:25:58 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="istocna_sirina" id="F2091AC1-1ED1-A023-8F30-603878C2BDCD">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:25:58 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C368C79C-1813-C4D8-9508-DBA06A07A664" name="Lokacija_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:25:58 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD60A071-541F-1925-E955-395B3E046392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

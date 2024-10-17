@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="110AF165-7F13-7FEA-926D-5DA4C5795B5A" name="GradjevinskoZemljiste">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:45:27 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grajevinskog_zemljista" id="968ACABC-DA67-CAD7-0215-BA858B9EEA90">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parcele" id="0F6F0FE6-019C-F24E-F58F-BEE784E7E73E">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1546D391-3C51-1CB4-7293-BC606B69F7A3" referredColumn="DB2424F6-0686-D3D6-7710-66FE7A3BDFE2"/>
+</associations>
+</Column>
+<Column name="povrsina" id="06F4774D-D7D9-67C5-1D03-60108F540577">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija_id_lokacije" id="C5E3A373-142B-2DF4-9FA3-EB5A1DC05500">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A749158-F1FF-6271-89A0-93409AE91E5F" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE1BDB9E-64D2-5B05-7DF3-E107C7C1A4AA" name="GradjevinskaParcela_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="968ACABC-DA67-CAD7-0215-BA858B9EEA90"/>
+<colUsage columnID="0F6F0FE6-019C-F24E-F58F-BEE784E7E73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51608118-D4BA-CB2E-4AB4-05F507B526BC" name="id_parcele_gradj">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F6F0FE6-019C-F24E-F58F-BEE784E7E73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494E80A3-5E94-1429-0F4B-5D79A1D3D80D" name="GradjevinskoZemljiste_Lokacija_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E3A373-142B-2DF4-9FA3-EB5A1DC05500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

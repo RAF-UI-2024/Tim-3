@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F46AFC3-C689-16CC-38F8-B92A10626200" name="Vozila">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:53:46 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="25875E69-C2E9-3ECF-5DB1-DFD14CDD86E0">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:56:02 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registarski_broj" id="1988FA36-1218-9B42-09F6-B8865026271D">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:56:02 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_sedista" id="B0DFA647-BBA1-4839-7313-20CBD03A8322">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:56:02 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vozacka_kategorija" id="09AFFD16-4667-7EC2-2BE9-DD0D9B702572">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:56:02 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="936A0FDC-3EBB-B67A-D3CE-D1755AB070C4" name="Vozila_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:56:02 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25875E69-C2E9-3ECF-5DB1-DFD14CDD86E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

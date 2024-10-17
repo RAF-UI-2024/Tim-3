@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D46FFA4F-8ADA-1A98-5135-DE62A389B2E7" name="PoljoprivrednoZemljiste">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:02:38 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_poljoprivrednog_zemljista" id="C8FB50F9-EC49-A41E-167A-6D2B10DE925A">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:15:36 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="povrsina" id="988E90F2-0473-FE12-4038-A71B794EDB36">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:15:36 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parcele" id="A2A3EB70-4EFB-3B3B-DF4E-FA55F3507153">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:27:11 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B5A4A70-BDAF-2F5B-51C1-09678BF0E20E" referredColumn="DB2424F6-0686-D3D6-7710-66FE7A3BDFE2"/>
+</associations>
+</Column>
+<Column name="katastarski_tip_zemljista" id="4CC0A9FB-95DE-0FA0-FA55-7B7437D94FDF">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:59:25 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija_id_lokacije" id="044E6AC5-E8FA-7DAC-163E-33BC3B974C92">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:31 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F37BE0D-50FE-66C8-3703-B3E29591AAEC" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14A41A83-E4FA-AA79-8BEE-510268CB9C68" name="PoljoprivrednoZemljiste_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:15:36 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8FB50F9-EC49-A41E-167A-6D2B10DE925A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2E1A364-B977-BEA1-CEFF-A2C2A3F9FE6B" name="PoljoprivrednoZemljiste_Parcela_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:27:11 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A3EB70-4EFB-3B3B-DF4E-FA55F3507153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3ACA9716-C40E-0F2D-851E-AE18BB0DB182" name="PoljoprivrednoZemljiste_Lokacija_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:31 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044E6AC5-E8FA-7DAC-163E-33BC3B974C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

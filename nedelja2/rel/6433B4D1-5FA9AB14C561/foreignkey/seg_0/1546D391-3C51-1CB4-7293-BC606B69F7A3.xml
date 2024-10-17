@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1546D391-3C51-1CB4-7293-BC606B69F7A3" containerWithKeyObject="110AF165-7F13-7FEA-926D-5DA4C5795B5A" localFKIndex="51608118-D4BA-CB2E-4AB4-05F507B526BC" name="id_parcele_gradj">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<referredTableLongName>Parcela</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06636F88-8AE8-C6B6-E2A5-A1AA49910992</referredTableID>
+<keyObject>152B83E2-891B-E0EA-7895-77598EB85F51</keyObject>
+<referredKeyID>152B83E2-891B-E0EA-7895-77598EB85F51</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_parcele</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

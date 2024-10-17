@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC8A9530-071D-C9A1-AC7F-415363BBB6D5" name="Objekat">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:52:11 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_objekta" id="D8065796-0CFA-4783-8CF0-E857BCE42CB7">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_gradj_zemljista" id="E7591111-03D9-D87F-CE8A-3E2340A65018">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78889AC4-120E-3C9D-15FF-E600C1A7B4A0" referredColumn="968ACABC-DA67-CAD7-0215-BA858B9EEA90"/>
+</associations>
+</Column>
+<Column name="tip_objekta" id="6DC14217-6F1B-2052-DA48-BCD6CF12620E">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parcele" id="364CC2AE-9AD0-A90F-65DC-F2F6565FFDB9">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78889AC4-120E-3C9D-15FF-E600C1A7B4A0" referredColumn="0F6F0FE6-019C-F24E-F58F-BEE784E7E73E"/>
+</associations>
+</Column>
+<Column name="Lokacija_id_lokacije" id="1CA290C1-3F00-12D7-F3E5-2327954FC3CA">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:00 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F21FEDAD-0FF3-0F30-2BA6-4F58004E0795" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC755F38-B5FE-6538-29D1-7DE57AB277C7" name="Objekat_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8065796-0CFA-4783-8CF0-E857BCE42CB7"/>
+<colUsage columnID="E7591111-03D9-D87F-CE8A-3E2340A65018"/>
+<colUsage columnID="364CC2AE-9AD0-A90F-65DC-F2F6565FFDB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="643EB793-035F-5498-88DD-C5FDDAB38ACD" name="id_gradj_zemlj_parcela">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:58:23 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7591111-03D9-D87F-CE8A-3E2340A65018"/>
+<colUsage columnID="364CC2AE-9AD0-A90F-65DC-F2F6565FFDB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81A1C38A-88B0-D486-93E7-C39BFA2B2633" name="Objekat_Lokacija_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:00 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CA290C1-3F00-12D7-F3E5-2327954FC3CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DB03CC1-8F36-719E-4F89-CE28D88C9F14" name="PrikljucnaMasina">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:52:32 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_masine" id="9DF45089-64A2-F1D6-302E-B3027941BF5B">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:56:37 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registarski_broj" id="C610660B-2C28-D612-41CE-82801C1CF339">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:56:37 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip" id="63723905-147F-346D-01DA-7B82F136CCF6">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:56:37 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_proizvodnje" id="636071C3-ABFE-02E3-1468-1E0E0B193E00">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:56:37 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A35422D-A5FB-B4BA-7C66-D276AFD0FD50" name="PrikljucnaMasina_PK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 15:56:37 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DF45089-64A2-F1D6-302E-B3027941BF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

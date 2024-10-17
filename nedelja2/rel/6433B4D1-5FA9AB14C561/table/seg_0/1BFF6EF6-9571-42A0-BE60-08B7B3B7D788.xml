@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BFF6EF6-9571-42A0-BE60-08B7B3B7D788" name="Zaduzenje">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:30:11 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zaduzenja" id="A72B7FCF-F9AA-DC31-9577-BA0DFDBFC15F">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_pocetka" id="7F479D43-0DF5-5714-D485-5F726FC075FA">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_zavrsetka" id="FBFD0E36-5E4D-6F76-12D7-9534A4C20DC2">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_pocetka" id="512121EC-CABF-FF9E-6FFD-82A9449C3048">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_zavrsetka" id="731C5707-D45A-F910-3CF9-6116CDA12D03">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE88FDF3-6557-9FD8-18BF-7BFFC294E5ED" name="Zaduzenje_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A72B7FCF-F9AA-DC31-9577-BA0DFDBFC15F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
