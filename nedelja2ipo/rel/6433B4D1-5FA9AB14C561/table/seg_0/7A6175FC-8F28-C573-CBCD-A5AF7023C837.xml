@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A6175FC-8F28-C573-CBCD-A5AF7023C837" name="TipObjekta">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 13:00:57 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tip_objekta" id="80A5E911-60E2-E2F5-402E-7407E66B85CC">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 13:02:19 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="74F1E8E3-30C1-BCCD-C93F-53680CE1E894">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 13:02:19 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9034AEE5-5714-6057-450E-A446BCECCC21" name="TipObjekta_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 13:02:19 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A5E911-60E2-E2F5-402E-7407E66B85CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

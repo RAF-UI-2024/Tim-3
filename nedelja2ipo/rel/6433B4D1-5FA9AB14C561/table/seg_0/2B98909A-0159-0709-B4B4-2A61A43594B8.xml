@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B98909A-0159-0709-B4B4-2A61A43594B8" name="ZaduzenjeLokacije">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:48:15 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokacije" id="406767F3-8E38-8412-F752-3F230B459497">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:50:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="859EA28B-8934-9D3F-9562-A27853795A52" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+<Column name="id_zaduzenja" id="5FD3A639-DBF9-CDED-9A1D-B7E4D4C944F4">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:50:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE52C4C3-95D7-A21F-873B-22327A894A87" referredColumn="A72B7FCF-F9AA-DC31-9577-BA0DFDBFC15F"/>
+</associations>
+</Column>
+<Column name="Zaduzenje_id_posla" id="78A33B79-F057-3D87-7445-3C45DC631E23">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:01:22 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE52C4C3-95D7-A21F-873B-22327A894A87" referredColumn="D1EDCEB3-D42E-66A0-A257-895AC0D980FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="526FBE0F-C895-84E4-49CE-2D6A0CF247D0" name="ZaduzenjeLokacije_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:50:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="406767F3-8E38-8412-F752-3F230B459497"/>
+<colUsage columnID="5FD3A639-DBF9-CDED-9A1D-B7E4D4C944F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="472E302E-8E9E-574C-BDB3-DB8D75B8F34D" name="id_lok">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:50:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="406767F3-8E38-8412-F752-3F230B459497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="790038C5-A9AF-0603-893D-9018BA2831F5" name="id_zaduz">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:50:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD3A639-DBF9-CDED-9A1D-B7E4D4C944F4"/>
+<colUsage columnID="78A33B79-F057-3D87-7445-3C45DC631E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

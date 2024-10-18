@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0BB7CE1-3666-32BA-AE47-6B01D962F27D" name="ZivotinjskoZemljiste">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:05:30 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zivotinjskog_zemljista" id="A1B3CEA8-1260-5D0F-9FDC-C568F9107EA7">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:09:59 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tip" id="5D2EA3DB-0AF4-18F6-B3BB-1CD32131CAD6">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:52:03 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EB7A8C6-A8F5-0659-685B-4EC74C605931" referredColumn="D6EDA93F-FFD8-2A2A-3F08-F0BE3D8D3DB6"/>
+</associations>
+</Column>
+<Column name="povrsina" id="E7ECB843-C929-19C8-14AF-07ED2A6FAA46">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:09:59 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ima_livadu" id="672F7E65-2ABC-751B-CE7B-096FBEC0D543">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:09:59 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija_id_lokacije" id="79DE028A-D36F-6527-6DC3-C91F8CC8F3D6">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8398040F-04EB-CAEC-FDF7-DA25291D1EA0" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46CFE824-055F-C7F7-2B72-B0D1D7E1518A" name="StocnoZemljiste_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:09:59 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1B3CEA8-1260-5D0F-9FDC-C568F9107EA7"/>
+<colUsage columnID="5D2EA3DB-0AF4-18F6-B3BB-1CD32131CAD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA73D133-156C-63B1-F1CB-4F014330A777" name="ZivotinjskoZemljiste_Lokacija_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79DE028A-D36F-6527-6DC3-C91F8CC8F3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3846105C-EB52-7C15-0F6B-B115D0CAA251" name="id_tipa">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:52:03 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2EA3DB-0AF4-18F6-B3BB-1CD32131CAD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

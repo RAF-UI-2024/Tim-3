@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8641D148-3793-8B87-16F4-E1AE989E01F0" containerWithKeyObject="9AED8316-DB53-BFE2-323E-EB0D11888411" localFKIndex="89141E56-7F5A-8B83-FA2A-BE4BADDC3F27" name="VoziloMasina_Zaposleni_FK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:58:30 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02DC4E26-3C20-BBFD-1880-FF01EEDD7472</referredTableID>
+<keyObject>B233041F-8E1A-A1C9-4DE4-9F3911B1667A</keyObject>
+<referredKeyID>B233041F-8E1A-A1C9-4DE4-9F3911B1667A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>jmbg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

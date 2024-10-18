@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="110AF165-7F13-7FEA-926D-5DA4C5795B5A" name="PoslovnoZemljiste">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:45:27 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_poslovnog_zemljista" id="968ACABC-DA67-CAD7-0215-BA858B9EEA90">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="povrsina" id="06F4774D-D7D9-67C5-1D03-60108F540577">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_lokacije" id="C5E3A373-142B-2DF4-9FA3-EB5A1DC05500">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:23 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A749158-F1FF-6271-89A0-93409AE91E5F" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+<Column name="id_tip" id="D153B965-90D5-34AE-E42D-6380132A064C">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:53:55 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50BF3810-09A7-FF60-D741-1FA36E4E4A99" referredColumn="D6EDA93F-FFD8-2A2A-3F08-F0BE3D8D3DB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE1BDB9E-64D2-5B05-7DF3-E107C7C1A4AA" name="GradjevinskaParcela_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 15:49:01 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="968ACABC-DA67-CAD7-0215-BA858B9EEA90"/>
+<colUsage columnID="D153B965-90D5-34AE-E42D-6380132A064C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494E80A3-5E94-1429-0F4B-5D79A1D3D80D" name="GradjevinskoZemljiste_Lokacija_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:28:23 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E3A373-142B-2DF4-9FA3-EB5A1DC05500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBB7979C-D8DF-1F2E-3E40-BD517C0CA6D3" name="id_tip">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:53:55 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D153B965-90D5-34AE-E42D-6380132A064C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

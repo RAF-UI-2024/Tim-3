@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB8D82D2-1C03-F0E6-B172-488D62FF8D1E" name="Posao">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 11:58:32 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_posla" id="56349DC7-6F50-B1D2-85EA-1394E420A88D">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:00:30 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_posla" id="6307F400-902A-0D2E-508E-ADADCCBB0E3B">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:00:30 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis_posla" id="55FCAF15-768E-3C32-BFCE-50D2D3E5147B">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:00:30 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF604483-9194-C01E-024D-098DA7A7B6FD" name="Posao_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:00:30 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56349DC7-6F50-B1D2-85EA-1394E420A88D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
