@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50CB75A9-C458-5388-2510-A6DBF790756D" containerWithKeyObject="DC8A9530-071D-C9A1-AC7F-415363BBB6D5" localFKIndex="43874AAD-AF3A-12F9-6D4F-5BD8109E7DAB" name="id_zivotinjskog_zemljista">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:42:49 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<referredTableLongName>ZivotinjskoZemljiste</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0BB7CE1-3666-32BA-AE47-6B01D962F27D</referredTableID>
+<keyObject>46CFE824-055F-C7F7-2B72-B0D1D7E1518A</keyObject>
+<referredKeyID>46CFE824-055F-C7F7-2B72-B0D1D7E1518A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_zivotinjskog_zemljista,id_tip</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

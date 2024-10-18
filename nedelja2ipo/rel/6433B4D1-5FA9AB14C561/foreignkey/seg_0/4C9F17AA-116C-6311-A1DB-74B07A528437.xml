@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C9F17AA-116C-6311-A1DB-74B07A528437" containerWithKeyObject="985A3559-E6E0-8522-D4D4-7D34CD23CC70" localFKIndex="94D7847B-DD27-4A5C-5E8C-6F7E8685B62E" name="VoznjaNaZaduzenju_VoziloZaduzenje_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:20:09 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<referredTableLongName>VoziloZaduzenje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>67A9504E-3A56-7284-D60F-66D98EEBFD13</referredTableID>
+<keyObject>6C25F8C1-5835-3FEE-3D26-CB7E6B45B596</keyObject>
+<referredKeyID>6C25F8C1-5835-3FEE-3D26-CB7E6B45B596</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_zaduzenja,id_posla,id_vozilo_na_zaduzenju</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

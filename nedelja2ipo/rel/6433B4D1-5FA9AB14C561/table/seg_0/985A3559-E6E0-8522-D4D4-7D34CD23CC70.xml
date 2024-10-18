@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="985A3559-E6E0-8522-D4D4-7D34CD23CC70" name="VoznjaNaZaduzenju">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:16:49 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vozila" id="9ADB3F54-9F5F-5DC9-C990-09BF9D5C10D0">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:19:41 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="026187A9-9A62-4D52-5D3B-F9D6A4CBF84A" referredColumn="25875E69-C2E9-3ECF-5DB1-DFD14CDD86E0"/>
+</associations>
+</Column>
+<Column name="id_vozilo_zaduzenje" id="FC44DD26-5411-31EE-186B-12A7926D8541">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:20:09 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9F17AA-116C-6311-A1DB-74B07A528437" referredColumn="F0A73F7F-6330-DF74-6FC3-55C6D9863284"/>
+</associations>
+</Column>
+<Column name="id_posla" id="08A6B49E-0FF3-9E2F-67DC-7A002E716E0F">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:22:41 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9F17AA-116C-6311-A1DB-74B07A528437" referredColumn="8135963B-5DDC-4B0C-0738-B34E5F11E6BA"/>
+</associations>
+</Column>
+<Column name="id_vozilo_na_zaduzenju" id="AD6723B4-8F55-EE1B-2742-DAC7D313CE0F">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:24:55 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9F17AA-116C-6311-A1DB-74B07A528437" referredColumn="E0671C74-51CC-730F-7E32-F9B5663B6D36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF8B7CB1-BD92-C08A-0ACC-05C87356EF5C" name="VoznjaNaZaduzenju_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:21:14 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ADB3F54-9F5F-5DC9-C990-09BF9D5C10D0"/>
+<colUsage columnID="FC44DD26-5411-31EE-186B-12A7926D8541"/>
+<colUsage columnID="08A6B49E-0FF3-9E2F-67DC-7A002E716E0F"/>
+<colUsage columnID="AD6723B4-8F55-EE1B-2742-DAC7D313CE0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D950ABC6-C451-CD76-0364-C22847E3211B" name="id_vozila">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:19:41 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ADB3F54-9F5F-5DC9-C990-09BF9D5C10D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D7847B-DD27-4A5C-5E8C-6F7E8685B62E" name="VoznjaNaZaduzenju_VoziloZaduzenje_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:20:09 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC44DD26-5411-31EE-186B-12A7926D8541"/>
+<colUsage columnID="08A6B49E-0FF3-9E2F-67DC-7A002E716E0F"/>
+<colUsage columnID="AD6723B4-8F55-EE1B-2742-DAC7D313CE0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
