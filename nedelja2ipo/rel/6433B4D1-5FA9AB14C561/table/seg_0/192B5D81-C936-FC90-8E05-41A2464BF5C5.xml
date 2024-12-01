@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="192B5D81-C936-FC90-8E05-41A2464BF5C5" name="TipZemljista">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:49:35 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tip_zemljista" id="D6EDA93F-FFD8-2A2A-3F08-F0BE3D8D3DB6">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:50:56 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="D8443661-F421-CC08-22F7-D4B636DC02ED">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:50:56 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="C3DB057B-CE63-C6E2-B181-89186F390382">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:50:56 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA5632F2-F4E5-A766-47EE-7F3EBB6BF6F9" name="TipZemljista_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:50:56 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6EDA93F-FFD8-2A2A-3F08-F0BE3D8D3DB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

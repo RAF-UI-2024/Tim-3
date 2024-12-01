@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BFF6EF6-9571-42A0-BE60-08B7B3B7D788" name="Zaduzenje">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:30:11 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zaduzenja" id="A72B7FCF-F9AA-DC31-9577-BA0DFDBFC15F">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_posla" id="D1EDCEB3-D42E-66A0-A257-895AC0D980FF">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:01:22 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F756147F-956D-D0E5-0E3F-8D0584746404" referredColumn="56349DC7-6F50-B1D2-85EA-1394E420A88D"/>
+</associations>
+</Column>
+<Column name="datum_pocetka" id="7F479D43-0DF5-5714-D485-5F726FC075FA">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_zavrsetka" id="FBFD0E36-5E4D-6F76-12D7-9534A4C20DC2">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_pocetka" id="512121EC-CABF-FF9E-6FFD-82A9449C3048">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_zavrsetka" id="731C5707-D45A-F910-3CF9-6116CDA12D03">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE88FDF3-6557-9FD8-18BF-7BFFC294E5ED" name="Zaduzenje_PK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:34:17 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A72B7FCF-F9AA-DC31-9577-BA0DFDBFC15F"/>
+<colUsage columnID="D1EDCEB3-D42E-66A0-A257-895AC0D980FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5563D040-813D-2139-403B-71686A89FD52" name="id_zaduzenje_posao">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:01:22 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1EDCEB3-D42E-66A0-A257-895AC0D980FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06636F88-8AE8-C6B6-E2A5-A1AA49910992" name="Parcela">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:36:45 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parcele" id="DB2424F6-0686-D3D6-7710-66FE7A3BDFE2">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:36:45 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="povrsina" id="18C4B27C-DDD4-5F4D-17FE-2F671CEC5EA4">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:36:45 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlasnistvo" id="116C644D-2EE6-664C-93DB-E0B4B35ECBE0">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 14:41:46 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_lokacije" id="0186F1FE-E738-E4D1-2446-3D91FC2E556C">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:29:13 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4B0536-4A82-C60A-F30F-D3D716D6162B" referredColumn="DD60A071-541F-1925-E955-395B3E046392"/>
+</associations>
+</Column>
+<Column name="TipZemljista_id_tip_zemljista" id="6DAEF3AC-765C-AE9C-CCF3-66F61A6D2627">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:52:42 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8C92521-CC90-388C-843E-58D1B3873DD2" referredColumn="D6EDA93F-FFD8-2A2A-3F08-F0BE3D8D3DB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="152B83E2-891B-E0EA-7895-77598EB85F51" name="Parcela_PK">
+<createdBy>Nada</createdBy>
+<createdTime>2024-10-10 16:36:45 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2424F6-0686-D3D6-7710-66FE7A3BDFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DBB79D0-45B4-D4FD-CB78-24D8D933E63A" name="Parcela_Lokacija_FK">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-17 16:29:13 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0186F1FE-E738-E4D1-2446-3D91FC2E556C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E3408C9-9CBE-DE12-8AD5-F36F1106C5F3" name="tip">
+<createdBy>Elitebook</createdBy>
+<createdTime>2024-10-18 12:52:42 UTC</createdTime>
+<ownerDesignName>nedelja2ipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DAEF3AC-765C-AE9C-CCF3-66F61A6D2627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
