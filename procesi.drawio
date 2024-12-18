@@ -1,0 +1,360 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" version="25.0.3">
+  <diagram name="Page-1" id="_AaHHXWBVAKW4H8Q8P_W">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-2" value="Zaposleni" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="2000" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-5" value="Zahtev za aktivnos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-16" value="Biranje tipa aktivnosti " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-18" value="Slanje formulara" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="345" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-2" source="P-21Dfhyszg6vcVTlf7y-16" target="P-21Dfhyszg6vcVTlf7y-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-2" source="P-21Dfhyszg6vcVTlf7y-35" target="P-21Dfhyszg6vcVTlf7y-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-35" value="Odabir mesta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="500" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-2" source="P-21Dfhyszg6vcVTlf7y-37" target="P-21Dfhyszg6vcVTlf7y-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-37" value="Odabir vremena" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="660" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-43" value="Slanje formulara" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="820" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-2" source="P-21Dfhyszg6vcVTlf7y-55" target="P-21Dfhyszg6vcVTlf7y-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-55" value="Odabir zaposlenog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="990" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-56" value="Slanje formulara" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="1160" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-2" source="P-21Dfhyszg6vcVTlf7y-69" target="P-21Dfhyszg6vcVTlf7y-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-69" value="Odabir tipa inventara (ili gotovo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="1350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-70" value="Slanje formulara" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="1520" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-91" value="Odabir invertara" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="1850" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-95" value="Slanje formulara" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-2">
+          <mxGeometry x="1680" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-2" source="P-21Dfhyszg6vcVTlf7y-91" target="P-21Dfhyszg6vcVTlf7y-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-4" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-12" value="kraj" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="700" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.3;exitY=-0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-11" target="P-21Dfhyszg6vcVTlf7y-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="650" as="sourcePoint" />
+            <mxPoint x="480" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-3" value="Servis" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="2000" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-6" value="Da li je korisnik ovlascen" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="50" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-9" value="DA" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="50" as="sourcePoint" />
+            <mxPoint x="200" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-11" value="log odbijanja" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=20;direction=west;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="250" y="140" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-10" value="ne" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="sourcePoint" />
+            <mxPoint x="250" y="165" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-15" value="Slanje forme za pravljenje aktivnosti" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="200" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-32" target="P-21Dfhyszg6vcVTlf7y-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-32" value="Filtriranje mogucih mesta za odabranu aktivnost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="344.99721311475423" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-33" value="Slanje forme za odabir mesta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="500" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-51" value="DA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-45" target="P-21Dfhyszg6vcVTlf7y-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-45" value="Provera dostupnosti aktivnosti mesta i vremena" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="830" y="10" width="91" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-48" value="Log nedostupnosti" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="700" y="20" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-47" value="ne" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-45" target="P-21Dfhyszg6vcVTlf7y-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="50" as="sourcePoint" />
+            <mxPoint x="790" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-48" target="P-21Dfhyszg6vcVTlf7y-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="50" as="sourcePoint" />
+            <mxPoint x="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-50" target="P-21Dfhyszg6vcVTlf7y-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-50" value="Filtriranje podređenih" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="815.5" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-52" target="P-21Dfhyszg6vcVTlf7y-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-52" value="&lt;div&gt;Filtriranje slobodnih zaposlenih&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="990" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-60" value="&#xa;&lt;br&gt;Slanje forme za odabir zaposlenog&lt;div&gt;&lt;br&gt;&lt;/div&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="990" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-65" value="ne" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-63" target="P-21Dfhyszg6vcVTlf7y-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-67" value="DA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-63" target="P-21Dfhyszg6vcVTlf7y-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-63" value="Da li je potreban inventar za aktivnost?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1170" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-64" value="Preliminarna aktivnost" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1160" y="165" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-66" value="Slanje forme za odabir tipa inventara" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-74" target="P-21Dfhyszg6vcVTlf7y-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-80" value="&lt;div&gt;Vozilo&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-79">
+          <mxGeometry x="-0.0451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-74" value="Tip inventara (ili gotovo)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1540" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-74" target="P-21Dfhyszg6vcVTlf7y-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="90" as="sourcePoint" />
+            <mxPoint x="1620" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-77" value="gotovo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-75">
+          <mxGeometry x="-0.0179" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-78" value="Filtriranje vozila za aktivnost" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1700" y="40" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-81" value="Filtriranje priključnih vozila za aktivnost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1700" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-74" target="P-21Dfhyszg6vcVTlf7y-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="90" as="sourcePoint" />
+            <mxPoint x="1620" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1620" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-83" value="&lt;div&gt;Priključna&lt;/div&gt;&lt;div&gt;mašina&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-82">
+          <mxGeometry x="0.2056" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-84" value="Filtriranje oruđa za aktivnost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1700" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-74" target="P-21Dfhyszg6vcVTlf7y-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="90" as="sourcePoint" />
+            <mxPoint x="1620" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1620" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-86" value="Oruđe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-85">
+          <mxGeometry x="0.5444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-87" value="Slanje forme za odabir invertara" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1860" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.968;exitY=0.541;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-78" target="P-21Dfhyszg6vcVTlf7y-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="90" as="sourcePoint" />
+            <mxPoint x="1620" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-81" target="P-21Dfhyszg6vcVTlf7y-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1860" y="90" as="sourcePoint" />
+            <mxPoint x="1910" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.021;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-84" target="P-21Dfhyszg6vcVTlf7y-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1860" y="90" as="sourcePoint" />
+            <mxPoint x="1910" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-101" target="P-21Dfhyszg6vcVTlf7y-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-101" value="&lt;div&gt;Log preliminarne&lt;/div&gt;&lt;div&gt;aktivnosti&lt;br&gt;&lt;/div&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1310" y="170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="P-21Dfhyszg6vcVTlf7y-3" source="P-21Dfhyszg6vcVTlf7y-64" target="P-21Dfhyszg6vcVTlf7y-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="180" as="sourcePoint" />
+            <mxPoint x="1500" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-103" value="Finalna aktivnost" style="whiteSpace=wrap;html=1;" vertex="1" parent="P-21Dfhyszg6vcVTlf7y-3">
+          <mxGeometry x="1450" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-5" target="P-21Dfhyszg6vcVTlf7y-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-15" target="P-21Dfhyszg6vcVTlf7y-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="470" as="sourcePoint" />
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-18" target="P-21Dfhyszg6vcVTlf7y-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="426.96721311475426" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-33" target="P-21Dfhyszg6vcVTlf7y-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="P-21Dfhyszg6vcVTlf7y-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="470" as="sourcePoint" />
+            <mxPoint x="1070" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="500" as="sourcePoint" />
+            <mxPoint x="1240" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.445;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-43" target="P-21Dfhyszg6vcVTlf7y-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="899.72" y="350" as="sourcePoint" />
+            <mxPoint x="899.72" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="895" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-66" target="P-21Dfhyszg6vcVTlf7y-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="500" as="sourcePoint" />
+            <mxPoint x="1430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-70" target="P-21Dfhyszg6vcVTlf7y-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="500" as="sourcePoint" />
+            <mxPoint x="1599.8267356515462" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.42;exitY=-0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.445;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-87" target="P-21Dfhyszg6vcVTlf7y-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="540" as="sourcePoint" />
+            <mxPoint x="1930" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.501;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-95" target="P-21Dfhyszg6vcVTlf7y-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="480" as="sourcePoint" />
+            <mxPoint x="1720" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1760" y="410" />
+              <mxPoint x="1540" y="410" />
+              <mxPoint x="1540" y="524" />
+              <mxPoint x="1520" y="524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.652;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.631;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-103" target="P-21Dfhyszg6vcVTlf7y-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="660" as="sourcePoint" />
+            <mxPoint x="1520" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-21Dfhyszg6vcVTlf7y-106" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.553;exitY=0.968;exitDx=0;exitDy=0;entryX=0.411;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="P-21Dfhyszg6vcVTlf7y-4" target="P-21Dfhyszg6vcVTlf7y-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="450" as="sourcePoint" />
+            <mxPoint x="890" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
